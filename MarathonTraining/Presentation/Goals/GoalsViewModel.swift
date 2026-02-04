@@ -27,22 +27,23 @@ final class GoalsViewModel {
 
         isLoading = true
 
-        // Fetch races (future races first)
-        let now = Date()
+        // Fetch races (today and future races)
+        let calendar = Calendar.current
+        let todayStart = calendar.startOfDay(for: Date())
         let raceDescriptor = FetchDescriptor<RaceModel>(
             sortBy: [SortDescriptor(\.date, order: .forward)]
         )
 
         do {
             let allRaces = try modelContext.fetch(raceDescriptor)
-            races = allRaces.filter { $0.date > now }
+            races = allRaces.filter { $0.date >= todayStart }
         } catch {
             print("Failed to fetch races: \(error)")
             races = []
         }
 
         // Fetch current weekly goal
-        let calendar = Calendar.current
+        let now = Date()
         guard let weekStart = calendar.date(from: calendar.dateComponents([.yearForWeekOfYear, .weekOfYear], from: now)) else {
             isLoading = false
             return
