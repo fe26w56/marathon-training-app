@@ -32,6 +32,13 @@ final class HealthKitService {
         ]
 
         try await healthStore.requestAuthorization(toShare: [], read: typesToRead)
+
+        // Check authorization status for workout type
+        let workoutType = HKObjectType.workoutType()
+        let status = healthStore.authorizationStatus(for: workoutType)
+        if status == .sharingDenied {
+            throw HealthKitError.authorizationDenied
+        }
     }
 
     // MARK: - Running Workouts
