@@ -73,20 +73,15 @@ final class SettingsViewModel {
             return
         }
 
-        let healthStore = HKHealthStore()
-        let workoutType = HKObjectType.workoutType()
-        let status = healthStore.authorizationStatus(for: workoutType)
-
-        switch status {
-        case .notDetermined:
-            healthKitAuthState = .notDetermined
-        case .sharingAuthorized:
+        // Check if authorization was previously granted (stored in UserDefaults)
+        // This is needed because HealthKit doesn't expose read-only authorization status
+        if UserDefaults.standard.bool(forKey: "healthKitAuthorized") {
             healthKitAuthState = .authorized
-        case .sharingDenied:
-            healthKitAuthState = .denied
-        @unknown default:
-            healthKitAuthState = .notDetermined
+            return
         }
+
+        // Default to not determined for fresh installs
+        healthKitAuthState = .notDetermined
     }
 
     @MainActor
@@ -97,9 +92,14 @@ final class SettingsViewModel {
 
         do {
             try await healthKitService.requestAuthorization()
-            checkHealthKitStatus()
+            // Store success in UserDefaults since HealthKit doesn't expose read-only auth status
+            UserDefaults.standard.set(true, forKey: "healthKitAuthorized")
+            healthKitAuthState = .authorized
         } catch {
             print("Authorization failed: \(error)")
+            if case HealthKitError.authorizationDenied = error {
+                healthKitAuthState = .denied
+            }
         }
 
         isLoading = false
