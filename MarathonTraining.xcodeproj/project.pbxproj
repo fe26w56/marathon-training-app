@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F329660C154E2196370D62F /* SleepRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171562AE2F6152870FD521A4 /* SleepRecord.swift */; };
 		3DB311A0352E874807F280CA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6B615920679A5B6425AAFA /* SettingsView.swift */; };
 		48E5757A14DA59F1CC8E4E95 /* RecordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4935F7ED5DA0643B4ED755 /* RecordsView.swift */; };
 		5DE1FB967AB7507E5415A297 /* WeeklyMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953436DD6951BDD71CAC756E /* WeeklyMenuView.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		171562AE2F6152870FD521A4 /* SleepRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepRecord.swift; sourceTree = "<group>"; };
 		1AD7264A823F71D85F424F2C /* MarathonTraining.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MarathonTraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C35D2135867741362E3AE23 /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
 		3DA138DAED0EEB89EF1ECC52 /* HealthKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitService.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				FB96FA62E2AB87E4012C6E74 /* RunningWorkout.swift */,
+				171562AE2F6152870FD521A4 /* SleepRecord.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -201,7 +204,7 @@
 			path = App;
 			sourceTree = "<group>";
 		};
-		"TEMP_F2300AF3-49F3-459F-B96A-AC600C158FCB" /* Shared */ = {
+		"TEMP_7A68A76A-A1CA-4546-924B-16F7FD565DCF" /* Shared */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -293,6 +296,7 @@
 				48E5757A14DA59F1CC8E4E95 /* RecordsView.swift in Sources */,
 				A7EE6972B24E14313836E96D /* RunningWorkout.swift in Sources */,
 				3DB311A0352E874807F280CA /* SettingsView.swift in Sources */,
+				1F329660C154E2196370D62F /* SleepRecord.swift in Sources */,
 				B133C2D3F032C11AB1069442 /* TrainingMenuModel.swift in Sources */,
 				C4329A4FCC9FE558B8C7466A /* TrainingType.swift in Sources */,
 				8FD4220BB7B9437E7E6475B2 /* WeeklyGoalModel.swift in Sources */,
