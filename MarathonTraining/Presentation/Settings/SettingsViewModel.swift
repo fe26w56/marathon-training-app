@@ -73,15 +73,43 @@ final class SettingsViewModel {
             return
         }
 
-        // Check if authorization was previously granted (stored in UserDefaults)
-        // This is needed because HealthKit doesn't expose read-only authorization status
-        if UserDefaults.standard.bool(forKey: "healthKitAuthorized") {
-            healthKitAuthState = .authorized
-            return
+        // Use getRequestStatusForAuthorization to check current read authorization status
+        Task {
+            await checkHealthKitStatusAsync()
         }
+    }
 
-        // Default to not determined for fresh installs
-        healthKitAuthState = .notDetermined
+    @MainActor
+    private func checkHealthKitStatusAsync() async {
+        let healthStore = HKHealthStore()
+        let workoutType = HKObjectType.workoutType()
+
+        do {
+            let status = try await healthStore.statusForAuthorizationRequest(
+                toShare: [],
+                read: [workoutType]
+            )
+
+            switch status {
+            case .unnecessary:
+                // Authorization was already requested (granted or denied)
+                // Check UserDefaults to see if we successfully got data before
+                if UserDefaults.standard.bool(forKey: "healthKitAuthorized") {
+                    healthKitAuthState = .authorized
+                } else {
+                    // User may have denied access
+                    healthKitAuthState = .denied
+                }
+            case .shouldRequest:
+                healthKitAuthState = .notDetermined
+            case .unknown:
+                healthKitAuthState = .notDetermined
+            @unknown default:
+                healthKitAuthState = .notDetermined
+            }
+        } catch {
+            healthKitAuthState = .notDetermined
+        }
     }
 
     @MainActor
