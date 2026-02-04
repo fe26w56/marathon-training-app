@@ -124,29 +124,48 @@ final class WeeklyMenuViewModel {
         guard let modelContext = modelContext else { return }
 
         let calendar = Calendar.current
+        let weekStart = currentWeekStart
+        guard let weekEnd = calendar.date(byAdding: .day, value: 7, to: weekStart) else { return }
+
+        // Fetch fresh data for the current week to avoid race conditions
+        let menuDescriptor = FetchDescriptor<TrainingMenuModel>(
+            predicate: #Predicate { menu in
+                menu.date >= weekStart && menu.date < weekEnd
+            }
+        )
+        let existingMenus = (try? modelContext.fetch(menuDescriptor)) ?? []
+
+        let goalDescriptor = FetchDescriptor<WeeklyGoalModel>(
+            predicate: #Predicate { goal in
+                goal.weekStartDate >= weekStart && goal.weekStartDate < weekEnd
+            }
+        )
+        let existingGoal = (try? modelContext.fetch(goalDescriptor))?.first
 
         // Delete existing menus for this week
-        for menu in weeklyMenus {
+        for menu in existingMenus {
             modelContext.delete(menu)
         }
 
         // Create or update weekly goal
-        if weeklyGoal == nil {
-            weeklyGoal = WeeklyGoalModel(
-                weekStartDate: currentWeekStart,
+        let goalToUse: WeeklyGoalModel
+        if let existingGoal = existingGoal {
+            existingGoal.targetDistance = level.weeklyDistance
+            existingGoal.targetTrainingDays = level.trainingDays
+            goalToUse = existingGoal
+        } else {
+            goalToUse = WeeklyGoalModel(
+                weekStartDate: weekStart,
                 targetDistance: level.weeklyDistance,
                 targetTrainingDays: level.trainingDays
             )
-            modelContext.insert(weeklyGoal!)
-        } else {
-            weeklyGoal?.targetDistance = level.weeklyDistance
-            weeklyGoal?.targetTrainingDays = level.trainingDays
+            modelContext.insert(goalToUse)
         }
 
         // Create menus based on template
         let template = getTemplate(for: level)
         for (dayOffset, menuType) in template.enumerated() {
-            guard let menuDate = calendar.date(byAdding: .day, value: dayOffset, to: currentWeekStart) else { continue }
+            guard let menuDate = calendar.date(byAdding: .day, value: dayOffset, to: weekStart) else { continue }
 
             let menu = TrainingMenuModel(
                 date: menuDate,
@@ -154,7 +173,7 @@ final class WeeklyMenuViewModel {
                 targetDistance: menuType.distance,
                 targetPace: menuType.pace
             )
-            menu.weeklyGoal = weeklyGoal
+            menu.weeklyGoal = goalToUse
             modelContext.insert(menu)
         }
 
