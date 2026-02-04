@@ -62,13 +62,17 @@ final class RecordsViewModel {
 
         let calendar = Calendar.current
         let now = Date()
-        guard let startDate = calendar.date(byAdding: .day, value: -dateRange.days, to: now) else { return }
+        // Normalize to start of day to include full first day
+        guard let rawStartDate = calendar.date(byAdding: .day, value: -dateRange.days, to: now) else { return }
+        let startDate = calendar.startOfDay(for: rawStartDate)
+        // End date is end of current day
+        guard let endDate = calendar.date(byAdding: .day, value: 1, to: calendar.startOfDay(for: now)) else { return }
 
         do {
             try await healthKitService.requestAuthorization()
 
-            async let workoutsTask = healthKitService.fetchRunningWorkouts(from: startDate, to: now)
-            async let sleepTask = healthKitService.fetchSleepData(from: startDate, to: now)
+            async let workoutsTask = healthKitService.fetchRunningWorkouts(from: startDate, to: endDate)
+            async let sleepTask = healthKitService.fetchSleepData(from: startDate, to: endDate)
 
             runningWorkouts = try await workoutsTask
             sleepRecords = try await sleepTask
