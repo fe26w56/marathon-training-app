@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DB311A0352E874807F280CA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6B615920679A5B6425AAFA /* SettingsView.swift */; };
+		48E5757A14DA59F1CC8E4E95 /* RecordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4935F7ED5DA0643B4ED755 /* RecordsView.swift */; };
+		5DE1FB967AB7507E5415A297 /* WeeklyMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953436DD6951BDD71CAC756E /* WeeklyMenuView.swift */; };
+		86DFF99EC3386ECE483DAD6B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7233A3B17BACE09E4F6B2D06 /* HomeView.swift */; };
+		BC3A8373A1CE6681F0FF20F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FBAFFDFA992C9C292C673C7 /* Assets.xcassets */; };
+		E01EB93515BC732201678B26 /* GoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56431ECF8DF3CECF3383E87 /* GoalsView.swift */; };
+		E9F02FA4336A69B219B9BE5E /* MarathonTrainingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E1BFDF85EC77EAD3C6E91D /* MarathonTrainingApp.swift */; };
+		F3E16B53FAB717B0E0C99EE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA174E98F44AB02D9C7696E1 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1AD7264A823F71D85F424F2C /* MarathonTraining.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MarathonTraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FBAFFDFA992C9C292C673C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A4935F7ED5DA0643B4ED755 /* RecordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsView.swift; sourceTree = "<group>"; };
+		60E1BFDF85EC77EAD3C6E91D /* MarathonTrainingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarathonTrainingApp.swift; sourceTree = "<group>"; };
+		7233A3B17BACE09E4F6B2D06 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		86EC631FD4930C1584D894B9 /* MarathonTraining.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MarathonTraining.entitlements; sourceTree = "<group>"; };
+		953436DD6951BDD71CAC756E /* WeeklyMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyMenuView.swift; sourceTree = "<group>"; };
+		AA174E98F44AB02D9C7696E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D433E722CA64B2DF5ECD787E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DC6B615920679A5B6425AAFA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F56431ECF8DF3CECF3383E87 /* GoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		07028002A9871E89AD0F4342 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				C5C8FB43B80493EC99EC6911 /* Goals */,
+				757886FF777B674F109B31F0 /* Home */,
+				64757CBF1002F200C9690665 /* Records */,
+				D3A648F76330DAEF6E324CF8 /* Settings */,
+				590DD3DD9DFC98381AC510BC /* WeeklyMenu */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		25B6CCF6EB6F39567667AF8D = {
+			isa = PBXGroup;
+			children = (
+				B5A93E0A4DB18478FAF556E8 /* MarathonTraining */,
+				83459FD216897C553CCCFA76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		590DD3DD9DFC98381AC510BC /* WeeklyMenu */ = {
+			isa = PBXGroup;
+			children = (
+				953436DD6951BDD71CAC756E /* WeeklyMenuView.swift */,
+			);
+			path = WeeklyMenu;
+			sourceTree = "<group>";
+		};
+		64757CBF1002F200C9690665 /* Records */ = {
+			isa = PBXGroup;
+			children = (
+				5A4935F7ED5DA0643B4ED755 /* RecordsView.swift */,
+			);
+			path = Records;
+			sourceTree = "<group>";
+		};
+		757886FF777B674F109B31F0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7233A3B17BACE09E4F6B2D06 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		83459FD216897C553CCCFA76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AD7264A823F71D85F424F2C /* MarathonTraining.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5A93E0A4DB18478FAF556E8 /* MarathonTraining */ = {
+			isa = PBXGroup;
+			children = (
+				86EC631FD4930C1584D894B9 /* MarathonTraining.entitlements */,
+				60E1BFDF85EC77EAD3C6E91D /* MarathonTrainingApp.swift */,
+				FE1FF95FBE70827C5297B302 /* App */,
+				07028002A9871E89AD0F4342 /* Presentation */,
+				EA072B55E1B91217068D38E6 /* Resources */,
+			);
+			path = MarathonTraining;
+			sourceTree = "<group>";
+		};
+		C5C8FB43B80493EC99EC6911 /* Goals */ = {
+			isa = PBXGroup;
+			children = (
+				F56431ECF8DF3CECF3383E87 /* GoalsView.swift */,
+			);
+			path = Goals;
+			sourceTree = "<group>";
+		};
+		D3A648F76330DAEF6E324CF8 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				DC6B615920679A5B6425AAFA /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		EA072B55E1B91217068D38E6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3FBAFFDFA992C9C292C673C7 /* Assets.xcassets */,
+				D433E722CA64B2DF5ECD787E /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FE1FF95FBE70827C5297B302 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AA174E98F44AB02D9C7696E1 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		"TEMP_1215615B-5A50-4C50-9179-05A73B19E72B" /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		"TEMP_214AD32D-9949-4B33-BEE2-CC8ECFE1D65E" /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		"TEMP_32A8BB60-4452-4BED-8933-B1356171060A" /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		"TEMP_D6A30078-7E44-494E-A48D-9EA84848D96A" /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29C75AB470362CEC5E59C003 /* MarathonTraining */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7E3940F45D4D58B6EA36C5F /* Build configuration list for PBXNativeTarget "MarathonTraining" */;
+			buildPhases = (
+				AFFBDCAF784BD999D5AD265E /* Sources */,
+				ADEF5C6CFDF44A0E747D9F23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarathonTraining;
+			packageProductDependencies = (
+			);
+			productName = MarathonTraining;
+			productReference = 1AD7264A823F71D85F424F2C /* MarathonTraining.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76CB8A127519B4C1804C72FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					29C75AB470362CEC5E59C003 = {
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = YES;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 651EC27035B9E1051877F475 /* Build configuration list for PBXProject "MarathonTraining" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 25B6CCF6EB6F39567667AF8D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29C75AB470362CEC5E59C003 /* MarathonTraining */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADEF5C6CFDF44A0E747D9F23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3A8373A1CE6681F0FF20F2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFFBDCAF784BD999D5AD265E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E16B53FAB717B0E0C99EE0 /* ContentView.swift in Sources */,
+				E01EB93515BC732201678B26 /* GoalsView.swift in Sources */,
+				86DFF99EC3386ECE483DAD6B /* HomeView.swift in Sources */,
+				E9F02FA4336A69B219B9BE5E /* MarathonTrainingApp.swift in Sources */,
+				48E5757A14DA59F1CC8E4E95 /* RecordsView.swift in Sources */,
+				3DB311A0352E874807F280CA /* SettingsView.swift in Sources */,
+				5DE1FB967AB7507E5415A297 /* WeeklyMenuView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0AE5D4B8DE21EEBD65E81352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		61ED9DB03C3C54CA8FF63609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MarathonTraining/MarathonTraining.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MarathonTraining/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MarathonTraining;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6DF51CF77D93CF995F921D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		EB846B95323E699DABBA4C43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MarathonTraining/MarathonTraining.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MarathonTraining/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MarathonTraining;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		651EC27035B9E1051877F475 /* Build configuration list for PBXProject "MarathonTraining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AE5D4B8DE21EEBD65E81352 /* Debug */,
+				A6DF51CF77D93CF995F921D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C7E3940F45D4D58B6EA36C5F /* Build configuration list for PBXNativeTarget "MarathonTraining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61ED9DB03C3C54CA8FF63609 /* Debug */,
+				EB846B95323E699DABBA4C43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76CB8A127519B4C1804C72FB /* Project object */;
+}
