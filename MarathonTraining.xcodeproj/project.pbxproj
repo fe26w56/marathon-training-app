@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0098356F60B025BA7784ACF0 /* RaceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60B63049CBEA921CE499CBD /* RaceListView.swift */; };
+		02AB5B9810FDE57D9B91C83B /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68601CF3E6827AFAB9E783C /* Tab.swift */; };
+		04448C92AC5CB2353544049B /* StatsChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52077BF529C084B841CC0F46 /* StatsChartView.swift */; };
+		04A79FB2C3A98E3DBF4862C5 /* WeeklyGoalCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0852DBB0718901A0C53B51CE /* WeeklyGoalCard.swift */; };
+		06B581366A36190E9F44B05A /* RecordsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10CA9FF0210B51D5F060F7 /* RecordsViewModel.swift */; };
+		1D7DD784DA0C60556D04B487 /* MenuTemplateSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB670E43771D3208B7FD2DF /* MenuTemplateSheet.swift */; };
+		1F329660C154E2196370D62F /* SleepRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171562AE2F6152870FD521A4 /* SleepRecord.swift */; };
+		21257451B0CBF18D80073ADA /* WeeklyMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCAA8182C3D3D66B7F10FA4 /* WeeklyMenuViewModel.swift */; };
+		30A010D6F1624F2A29D111D3 /* WeekCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BC5F341DEEAF38FD217CD3 /* WeekCalendarView.swift */; };
+		312AACF3E04A2D02F73720F2 /* RunningHistoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6908B908F105DFE59176A4 /* RunningHistoryList.swift */; };
+		3DB311A0352E874807F280CA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6B615920679A5B6425AAFA /* SettingsView.swift */; };
+		48E5757A14DA59F1CC8E4E95 /* RecordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4935F7ED5DA0643B4ED755 /* RecordsView.swift */; };
+		5987DF2D06FC24CCA287A431 /* TodayMenuCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8018D3B1B2E6494189418307 /* TodayMenuCard.swift */; };
+		5DE1FB967AB7507E5415A297 /* WeeklyMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953436DD6951BDD71CAC756E /* WeeklyMenuView.swift */; };
+		5EAF9C915224A821BDD60E41 /* WeeklySummaryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B550B305F6909BEBC11126 /* WeeklySummaryCard.swift */; };
+		70E12C5336D34D441AC1BC9D /* NotificationSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B738A09A974662C0CC0B63 /* NotificationSettingsView.swift */; };
+		7E91C6BF27836DFCD2199B73 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5018C41BB6D04354866DA7F /* HomeViewModel.swift */; };
+		86DFF99EC3386ECE483DAD6B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7233A3B17BACE09E4F6B2D06 /* HomeView.swift */; };
+		8860297FB625FE4B96971FEE /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E68531B5DC6DEDA0584A1CC /* EmptyStateView.swift */; };
+		8C5EAF1909F5E5DA3C38B0F4 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015A3292269302F9050AF6DE /* SettingsViewModel.swift */; };
+		8FD4220BB7B9437E7E6475B2 /* WeeklyGoalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE149F2CC235729C2894B6D9 /* WeeklyGoalModel.swift */; };
+		9596D36AC457ECD9BE4FD2F5 /* RaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699AB2DA19ED9D53CA7DCF57 /* RaceModel.swift */; };
+		A056B5CFE7FD070D67A41C14 /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C35D2135867741362E3AE23 /* GoalType.swift */; };
+		A7EE6972B24E14313836E96D /* RunningWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB96FA62E2AB87E4012C6E74 /* RunningWorkout.swift */; };
+		AA27724B88633D5CE1F260C3 /* SleepHistoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607D87C31C5D328D7FD3A049 /* SleepHistoryList.swift */; };
+		B133C2D3F032C11AB1069442 /* TrainingMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862EA7FAA86C60FDDA949048 /* TrainingMenuModel.swift */; };
+		BC3A8373A1CE6681F0FF20F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FBAFFDFA992C9C292C673C7 /* Assets.xcassets */; };
+		C4121A826AB3F1954AACC2B5 /* DayMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76891E8C7302E20BFD3F4E5 /* DayMenuCell.swift */; };
+		C4329A4FCC9FE558B8C7466A /* TrainingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C96D31363F79F305E2F5541 /* TrainingType.swift */; };
+		CBAC9C5B88FC22649EDC0526 /* RaceEditSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AD6F54D6227224BF7A361B /* RaceEditSheet.swift */; };
+		CC16CD6CD4B8948F8837F49F /* HealthKitSettingsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9516DBF462B395C157E260 /* HealthKitSettingsRow.swift */; };
+		DC5F10E97832A230BFD8A617 /* ProfileSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6C1AACA2F59FE770484596 /* ProfileSettingsView.swift */; };
+		DF6EF5ED411152D4682B1E4C /* LongTermGoalCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0749A1CA2F2A7B86EEC15031 /* LongTermGoalCard.swift */; };
+		E01BF50174A62BA9D96DADDE /* GoalsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA86ADA1CFD260FB0362AB7B /* GoalsViewModel.swift */; };
+		E01EB93515BC732201678B26 /* GoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56431ECF8DF3CECF3383E87 /* GoalsView.swift */; };
+		E5F7195D34A29FFC2E893841 /* LongTermGoalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC0CFB5CFE231C528687E2F /* LongTermGoalModel.swift */; };
+		E9F02FA4336A69B219B9BE5E /* MarathonTrainingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E1BFDF85EC77EAD3C6E91D /* MarathonTrainingApp.swift */; };
+		F3E16B53FAB717B0E0C99EE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA174E98F44AB02D9C7696E1 /* ContentView.swift */; };
+		FA52EBCFC777E1A7D89DE730 /* CountdownCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CF801CE7ACCDEE315A8708 /* CountdownCard.swift */; };
+		FCBF1DF16101468D84121079 /* HealthKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA138DAED0EEB89EF1ECC52 /* HealthKitService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		015A3292269302F9050AF6DE /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		0749A1CA2F2A7B86EEC15031 /* LongTermGoalCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongTermGoalCard.swift; sourceTree = "<group>"; };
+		0852DBB0718901A0C53B51CE /* WeeklyGoalCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyGoalCard.swift; sourceTree = "<group>"; };
+		171562AE2F6152870FD521A4 /* SleepRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepRecord.swift; sourceTree = "<group>"; };
+		1AD7264A823F71D85F424F2C /* MarathonTraining.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MarathonTraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C35D2135867741362E3AE23 /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
+		34BC5F341DEEAF38FD217CD3 /* WeekCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekCalendarView.swift; sourceTree = "<group>"; };
+		3DA138DAED0EEB89EF1ECC52 /* HealthKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitService.swift; sourceTree = "<group>"; };
+		3FBAFFDFA992C9C292C673C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49AD6F54D6227224BF7A361B /* RaceEditSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceEditSheet.swift; sourceTree = "<group>"; };
+		4FCAA8182C3D3D66B7F10FA4 /* WeeklyMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyMenuViewModel.swift; sourceTree = "<group>"; };
+		52077BF529C084B841CC0F46 /* StatsChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsChartView.swift; sourceTree = "<group>"; };
+		5A4935F7ED5DA0643B4ED755 /* RecordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsView.swift; sourceTree = "<group>"; };
+		607D87C31C5D328D7FD3A049 /* SleepHistoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepHistoryList.swift; sourceTree = "<group>"; };
+		60E1BFDF85EC77EAD3C6E91D /* MarathonTrainingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarathonTrainingApp.swift; sourceTree = "<group>"; };
+		63B550B305F6909BEBC11126 /* WeeklySummaryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklySummaryCard.swift; sourceTree = "<group>"; };
+		699AB2DA19ED9D53CA7DCF57 /* RaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceModel.swift; sourceTree = "<group>"; };
+		7233A3B17BACE09E4F6B2D06 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8018D3B1B2E6494189418307 /* TodayMenuCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayMenuCard.swift; sourceTree = "<group>"; };
+		862EA7FAA86C60FDDA949048 /* TrainingMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingMenuModel.swift; sourceTree = "<group>"; };
+		86EC631FD4930C1584D894B9 /* MarathonTraining.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MarathonTraining.entitlements; sourceTree = "<group>"; };
+		88CF801CE7ACCDEE315A8708 /* CountdownCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownCard.swift; sourceTree = "<group>"; };
+		8C96D31363F79F305E2F5541 /* TrainingType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingType.swift; sourceTree = "<group>"; };
+		8F6908B908F105DFE59176A4 /* RunningHistoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningHistoryList.swift; sourceTree = "<group>"; };
+		953436DD6951BDD71CAC756E /* WeeklyMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyMenuView.swift; sourceTree = "<group>"; };
+		9E68531B5DC6DEDA0584A1CC /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		A68601CF3E6827AFAB9E783C /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		A9B738A09A974662C0CC0B63 /* NotificationSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettingsView.swift; sourceTree = "<group>"; };
+		AA174E98F44AB02D9C7696E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B5018C41BB6D04354866DA7F /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		B76891E8C7302E20BFD3F4E5 /* DayMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayMenuCell.swift; sourceTree = "<group>"; };
+		BA6C1AACA2F59FE770484596 /* ProfileSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSettingsView.swift; sourceTree = "<group>"; };
+		BBB670E43771D3208B7FD2DF /* MenuTemplateSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTemplateSheet.swift; sourceTree = "<group>"; };
+		BC10CA9FF0210B51D5F060F7 /* RecordsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsViewModel.swift; sourceTree = "<group>"; };
+		BE149F2CC235729C2894B6D9 /* WeeklyGoalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyGoalModel.swift; sourceTree = "<group>"; };
+		D433E722CA64B2DF5ECD787E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DAC0CFB5CFE231C528687E2F /* LongTermGoalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongTermGoalModel.swift; sourceTree = "<group>"; };
+		DC6B615920679A5B6425AAFA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		EA86ADA1CFD260FB0362AB7B /* GoalsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsViewModel.swift; sourceTree = "<group>"; };
+		EF9516DBF462B395C157E260 /* HealthKitSettingsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitSettingsRow.swift; sourceTree = "<group>"; };
+		F56431ECF8DF3CECF3383E87 /* GoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsView.swift; sourceTree = "<group>"; };
+		F60B63049CBEA921CE499CBD /* RaceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceListView.swift; sourceTree = "<group>"; };
+		FB96FA62E2AB87E4012C6E74 /* RunningWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningWorkout.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		07028002A9871E89AD0F4342 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				C5C8FB43B80493EC99EC6911 /* Goals */,
+				757886FF777B674F109B31F0 /* Home */,
+				64757CBF1002F200C9690665 /* Records */,
+				D3A648F76330DAEF6E324CF8 /* Settings */,
+				1A2ED095A794FE176FD36955 /* Shared */,
+				590DD3DD9DFC98381AC510BC /* WeeklyMenu */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		0C3B6BD8C7FFACF4FB3E300A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2C35D2135867741362E3AE23 /* GoalType.swift */,
+				DAC0CFB5CFE231C528687E2F /* LongTermGoalModel.swift */,
+				699AB2DA19ED9D53CA7DCF57 /* RaceModel.swift */,
+				862EA7FAA86C60FDDA949048 /* TrainingMenuModel.swift */,
+				8C96D31363F79F305E2F5541 /* TrainingType.swift */,
+				BE149F2CC235729C2894B6D9 /* WeeklyGoalModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1A2ED095A794FE176FD36955 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B245AB20592F0A33B9C6E70B /* Components */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		25B6CCF6EB6F39567667AF8D = {
+			isa = PBXGroup;
+			children = (
+				B5A93E0A4DB18478FAF556E8 /* MarathonTraining */,
+				83459FD216897C553CCCFA76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25F45AFF6B4ED77319EADB01 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B76891E8C7302E20BFD3F4E5 /* DayMenuCell.swift */,
+				BBB670E43771D3208B7FD2DF /* MenuTemplateSheet.swift */,
+				34BC5F341DEEAF38FD217CD3 /* WeekCalendarView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2ED2127CD14BDECDA2BE61A0 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				FB96FA62E2AB87E4012C6E74 /* RunningWorkout.swift */,
+				171562AE2F6152870FD521A4 /* SleepRecord.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		40F30864EDE1A24C6BAE53A9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0C3B6BD8C7FFACF4FB3E300A /* Models */,
+				6B8C3DED727F0EE48125900E /* Services */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		4164F74EA69F0515FC3A1CFF /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				88CF801CE7ACCDEE315A8708 /* CountdownCard.swift */,
+				8018D3B1B2E6494189418307 /* TodayMenuCard.swift */,
+				63B550B305F6909BEBC11126 /* WeeklySummaryCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5083631634AC5B436B0ABF49 /* HealthKit */ = {
+			isa = PBXGroup;
+			children = (
+				3DA138DAED0EEB89EF1ECC52 /* HealthKitService.swift */,
+			);
+			path = HealthKit;
+			sourceTree = "<group>";
+		};
+		590DD3DD9DFC98381AC510BC /* WeeklyMenu */ = {
+			isa = PBXGroup;
+			children = (
+				953436DD6951BDD71CAC756E /* WeeklyMenuView.swift */,
+				4FCAA8182C3D3D66B7F10FA4 /* WeeklyMenuViewModel.swift */,
+				25F45AFF6B4ED77319EADB01 /* Components */,
+			);
+			path = WeeklyMenu;
+			sourceTree = "<group>";
+		};
+		64757CBF1002F200C9690665 /* Records */ = {
+			isa = PBXGroup;
+			children = (
+				5A4935F7ED5DA0643B4ED755 /* RecordsView.swift */,
+				BC10CA9FF0210B51D5F060F7 /* RecordsViewModel.swift */,
+				CBD8EFBDCD4BEC3DAEC54611 /* Components */,
+			);
+			path = Records;
+			sourceTree = "<group>";
+		};
+		6572186F51EF6258BF519A36 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0749A1CA2F2A7B86EEC15031 /* LongTermGoalCard.swift */,
+				49AD6F54D6227224BF7A361B /* RaceEditSheet.swift */,
+				F60B63049CBEA921CE499CBD /* RaceListView.swift */,
+				0852DBB0718901A0C53B51CE /* WeeklyGoalCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		6B8C3DED727F0EE48125900E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5083631634AC5B436B0ABF49 /* HealthKit */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		757886FF777B674F109B31F0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7233A3B17BACE09E4F6B2D06 /* HomeView.swift */,
+				B5018C41BB6D04354866DA7F /* HomeViewModel.swift */,
+				4164F74EA69F0515FC3A1CFF /* Components */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		83459FD216897C553CCCFA76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AD7264A823F71D85F424F2C /* MarathonTraining.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5B0741A31E4A7A67AE05B7E /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				2ED2127CD14BDECDA2BE61A0 /* Entities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		B245AB20592F0A33B9C6E70B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9E68531B5DC6DEDA0584A1CC /* EmptyStateView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B5A93E0A4DB18478FAF556E8 /* MarathonTraining */ = {
+			isa = PBXGroup;
+			children = (
+				86EC631FD4930C1584D894B9 /* MarathonTraining.entitlements */,
+				60E1BFDF85EC77EAD3C6E91D /* MarathonTrainingApp.swift */,
+				FE1FF95FBE70827C5297B302 /* App */,
+				40F30864EDE1A24C6BAE53A9 /* Data */,
+				A5B0741A31E4A7A67AE05B7E /* Domain */,
+				07028002A9871E89AD0F4342 /* Presentation */,
+				EA072B55E1B91217068D38E6 /* Resources */,
+			);
+			path = MarathonTraining;
+			sourceTree = "<group>";
+		};
+		C5C8FB43B80493EC99EC6911 /* Goals */ = {
+			isa = PBXGroup;
+			children = (
+				F56431ECF8DF3CECF3383E87 /* GoalsView.swift */,
+				EA86ADA1CFD260FB0362AB7B /* GoalsViewModel.swift */,
+				6572186F51EF6258BF519A36 /* Components */,
+			);
+			path = Goals;
+			sourceTree = "<group>";
+		};
+		CBD8EFBDCD4BEC3DAEC54611 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8F6908B908F105DFE59176A4 /* RunningHistoryList.swift */,
+				607D87C31C5D328D7FD3A049 /* SleepHistoryList.swift */,
+				52077BF529C084B841CC0F46 /* StatsChartView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D3A648F76330DAEF6E324CF8 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				DC6B615920679A5B6425AAFA /* SettingsView.swift */,
+				015A3292269302F9050AF6DE /* SettingsViewModel.swift */,
+				E62270A23B55175DFFFC09D3 /* Components */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		E62270A23B55175DFFFC09D3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EF9516DBF462B395C157E260 /* HealthKitSettingsRow.swift */,
+				A9B738A09A974662C0CC0B63 /* NotificationSettingsView.swift */,
+				BA6C1AACA2F59FE770484596 /* ProfileSettingsView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		EA072B55E1B91217068D38E6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3FBAFFDFA992C9C292C673C7 /* Assets.xcassets */,
+				D433E722CA64B2DF5ECD787E /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FE1FF95FBE70827C5297B302 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AA174E98F44AB02D9C7696E1 /* ContentView.swift */,
+				A68601CF3E6827AFAB9E783C /* Tab.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29C75AB470362CEC5E59C003 /* MarathonTraining */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7E3940F45D4D58B6EA36C5F /* Build configuration list for PBXNativeTarget "MarathonTraining" */;
+			buildPhases = (
+				AFFBDCAF784BD999D5AD265E /* Sources */,
+				ADEF5C6CFDF44A0E747D9F23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarathonTraining;
+			packageProductDependencies = (
+			);
+			productName = MarathonTraining;
+			productReference = 1AD7264A823F71D85F424F2C /* MarathonTraining.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76CB8A127519B4C1804C72FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					29C75AB470362CEC5E59C003 = {
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = YES;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 651EC27035B9E1051877F475 /* Build configuration list for PBXProject "MarathonTraining" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 25B6CCF6EB6F39567667AF8D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29C75AB470362CEC5E59C003 /* MarathonTraining */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADEF5C6CFDF44A0E747D9F23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3A8373A1CE6681F0FF20F2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFFBDCAF784BD999D5AD265E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E16B53FAB717B0E0C99EE0 /* ContentView.swift in Sources */,
+				FA52EBCFC777E1A7D89DE730 /* CountdownCard.swift in Sources */,
+				C4121A826AB3F1954AACC2B5 /* DayMenuCell.swift in Sources */,
+				8860297FB625FE4B96971FEE /* EmptyStateView.swift in Sources */,
+				A056B5CFE7FD070D67A41C14 /* GoalType.swift in Sources */,
+				E01EB93515BC732201678B26 /* GoalsView.swift in Sources */,
+				E01BF50174A62BA9D96DADDE /* GoalsViewModel.swift in Sources */,
+				FCBF1DF16101468D84121079 /* HealthKitService.swift in Sources */,
+				CC16CD6CD4B8948F8837F49F /* HealthKitSettingsRow.swift in Sources */,
+				86DFF99EC3386ECE483DAD6B /* HomeView.swift in Sources */,
+				7E91C6BF27836DFCD2199B73 /* HomeViewModel.swift in Sources */,
+				DF6EF5ED411152D4682B1E4C /* LongTermGoalCard.swift in Sources */,
+				E5F7195D34A29FFC2E893841 /* LongTermGoalModel.swift in Sources */,
+				E9F02FA4336A69B219B9BE5E /* MarathonTrainingApp.swift in Sources */,
+				1D7DD784DA0C60556D04B487 /* MenuTemplateSheet.swift in Sources */,
+				70E12C5336D34D441AC1BC9D /* NotificationSettingsView.swift in Sources */,
+				DC5F10E97832A230BFD8A617 /* ProfileSettingsView.swift in Sources */,
+				CBAC9C5B88FC22649EDC0526 /* RaceEditSheet.swift in Sources */,
+				0098356F60B025BA7784ACF0 /* RaceListView.swift in Sources */,
+				9596D36AC457ECD9BE4FD2F5 /* RaceModel.swift in Sources */,
+				48E5757A14DA59F1CC8E4E95 /* RecordsView.swift in Sources */,
+				06B581366A36190E9F44B05A /* RecordsViewModel.swift in Sources */,
+				312AACF3E04A2D02F73720F2 /* RunningHistoryList.swift in Sources */,
+				A7EE6972B24E14313836E96D /* RunningWorkout.swift in Sources */,
+				3DB311A0352E874807F280CA /* SettingsView.swift in Sources */,
+				8C5EAF1909F5E5DA3C38B0F4 /* SettingsViewModel.swift in Sources */,
+				AA27724B88633D5CE1F260C3 /* SleepHistoryList.swift in Sources */,
+				1F329660C154E2196370D62F /* SleepRecord.swift in Sources */,
+				04448C92AC5CB2353544049B /* StatsChartView.swift in Sources */,
+				02AB5B9810FDE57D9B91C83B /* Tab.swift in Sources */,
+				5987DF2D06FC24CCA287A431 /* TodayMenuCard.swift in Sources */,
+				B133C2D3F032C11AB1069442 /* TrainingMenuModel.swift in Sources */,
+				C4329A4FCC9FE558B8C7466A /* TrainingType.swift in Sources */,
+				30A010D6F1624F2A29D111D3 /* WeekCalendarView.swift in Sources */,
+				04A79FB2C3A98E3DBF4862C5 /* WeeklyGoalCard.swift in Sources */,
+				8FD4220BB7B9437E7E6475B2 /* WeeklyGoalModel.swift in Sources */,
+				5DE1FB967AB7507E5415A297 /* WeeklyMenuView.swift in Sources */,
+				21257451B0CBF18D80073ADA /* WeeklyMenuViewModel.swift in Sources */,
+				5EAF9C915224A821BDD60E41 /* WeeklySummaryCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0AE5D4B8DE21EEBD65E81352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		61ED9DB03C3C54CA8FF63609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MarathonTraining/MarathonTraining.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MarathonTraining/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MarathonTraining;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6DF51CF77D93CF995F921D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		EB846B95323E699DABBA4C43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MarathonTraining/MarathonTraining.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MarathonTraining/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MarathonTraining;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		651EC27035B9E1051877F475 /* Build configuration list for PBXProject "MarathonTraining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AE5D4B8DE21EEBD65E81352 /* Debug */,
+				A6DF51CF77D93CF995F921D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C7E3940F45D4D58B6EA36C5F /* Build configuration list for PBXNativeTarget "MarathonTraining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61ED9DB03C3C54CA8FF63609 /* Debug */,
+				EB846B95323E699DABBA4C43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76CB8A127519B4C1804C72FB /* Project object */;
+}
