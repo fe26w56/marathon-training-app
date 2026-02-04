@@ -11,22 +11,34 @@
 		48E5757A14DA59F1CC8E4E95 /* RecordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4935F7ED5DA0643B4ED755 /* RecordsView.swift */; };
 		5DE1FB967AB7507E5415A297 /* WeeklyMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953436DD6951BDD71CAC756E /* WeeklyMenuView.swift */; };
 		86DFF99EC3386ECE483DAD6B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7233A3B17BACE09E4F6B2D06 /* HomeView.swift */; };
+		8FD4220BB7B9437E7E6475B2 /* WeeklyGoalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE149F2CC235729C2894B6D9 /* WeeklyGoalModel.swift */; };
+		9596D36AC457ECD9BE4FD2F5 /* RaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699AB2DA19ED9D53CA7DCF57 /* RaceModel.swift */; };
+		A056B5CFE7FD070D67A41C14 /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C35D2135867741362E3AE23 /* GoalType.swift */; };
+		B133C2D3F032C11AB1069442 /* TrainingMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862EA7FAA86C60FDDA949048 /* TrainingMenuModel.swift */; };
 		BC3A8373A1CE6681F0FF20F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FBAFFDFA992C9C292C673C7 /* Assets.xcassets */; };
+		C4329A4FCC9FE558B8C7466A /* TrainingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C96D31363F79F305E2F5541 /* TrainingType.swift */; };
 		E01EB93515BC732201678B26 /* GoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56431ECF8DF3CECF3383E87 /* GoalsView.swift */; };
+		E5F7195D34A29FFC2E893841 /* LongTermGoalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC0CFB5CFE231C528687E2F /* LongTermGoalModel.swift */; };
 		E9F02FA4336A69B219B9BE5E /* MarathonTrainingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E1BFDF85EC77EAD3C6E91D /* MarathonTrainingApp.swift */; };
 		F3E16B53FAB717B0E0C99EE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA174E98F44AB02D9C7696E1 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1AD7264A823F71D85F424F2C /* MarathonTraining.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MarathonTraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C35D2135867741362E3AE23 /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
 		3FBAFFDFA992C9C292C673C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A4935F7ED5DA0643B4ED755 /* RecordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsView.swift; sourceTree = "<group>"; };
 		60E1BFDF85EC77EAD3C6E91D /* MarathonTrainingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarathonTrainingApp.swift; sourceTree = "<group>"; };
+		699AB2DA19ED9D53CA7DCF57 /* RaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceModel.swift; sourceTree = "<group>"; };
 		7233A3B17BACE09E4F6B2D06 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		862EA7FAA86C60FDDA949048 /* TrainingMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingMenuModel.swift; sourceTree = "<group>"; };
 		86EC631FD4930C1584D894B9 /* MarathonTraining.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MarathonTraining.entitlements; sourceTree = "<group>"; };
+		8C96D31363F79F305E2F5541 /* TrainingType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingType.swift; sourceTree = "<group>"; };
 		953436DD6951BDD71CAC756E /* WeeklyMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyMenuView.swift; sourceTree = "<group>"; };
 		AA174E98F44AB02D9C7696E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BE149F2CC235729C2894B6D9 /* WeeklyGoalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyGoalModel.swift; sourceTree = "<group>"; };
 		D433E722CA64B2DF5ECD787E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DAC0CFB5CFE231C528687E2F /* LongTermGoalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongTermGoalModel.swift; sourceTree = "<group>"; };
 		DC6B615920679A5B6425AAFA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		F56431ECF8DF3CECF3383E87 /* GoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -44,12 +56,33 @@
 			path = Presentation;
 			sourceTree = "<group>";
 		};
+		0C3B6BD8C7FFACF4FB3E300A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2C35D2135867741362E3AE23 /* GoalType.swift */,
+				DAC0CFB5CFE231C528687E2F /* LongTermGoalModel.swift */,
+				699AB2DA19ED9D53CA7DCF57 /* RaceModel.swift */,
+				862EA7FAA86C60FDDA949048 /* TrainingMenuModel.swift */,
+				8C96D31363F79F305E2F5541 /* TrainingType.swift */,
+				BE149F2CC235729C2894B6D9 /* WeeklyGoalModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		25B6CCF6EB6F39567667AF8D = {
 			isa = PBXGroup;
 			children = (
 				B5A93E0A4DB18478FAF556E8 /* MarathonTraining */,
 				83459FD216897C553CCCFA76 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		40F30864EDE1A24C6BAE53A9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0C3B6BD8C7FFACF4FB3E300A /* Models */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 		590DD3DD9DFC98381AC510BC /* WeeklyMenu */ = {
@@ -90,6 +123,7 @@
 				86EC631FD4930C1584D894B9 /* MarathonTraining.entitlements */,
 				60E1BFDF85EC77EAD3C6E91D /* MarathonTrainingApp.swift */,
 				FE1FF95FBE70827C5297B302 /* App */,
+				40F30864EDE1A24C6BAE53A9 /* Data */,
 				07028002A9871E89AD0F4342 /* Presentation */,
 				EA072B55E1B91217068D38E6 /* Resources */,
 			);
@@ -129,32 +163,25 @@
 			path = App;
 			sourceTree = "<group>";
 		};
-		"TEMP_1215615B-5A50-4C50-9179-05A73B19E72B" /* Shared */ = {
+		"TEMP_094FADC6-EA58-438D-8DAA-4ED1E7F59CDE" /* Shared */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Shared;
 			sourceTree = "<group>";
 		};
-		"TEMP_214AD32D-9949-4B33-BEE2-CC8ECFE1D65E" /* Services */ = {
+		"TEMP_9A118EFF-F414-4C2F-A264-39465FC542E9" /* Services */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Services;
 			sourceTree = "<group>";
 		};
-		"TEMP_32A8BB60-4452-4BED-8933-B1356171060A" /* Domain */ = {
+		"TEMP_B03421FC-FA7E-4C0A-ABFD-B9F4523A721D" /* Domain */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Domain;
-			sourceTree = "<group>";
-		};
-		"TEMP_D6A30078-7E44-494E-A48D-9EA84848D96A" /* Data */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,11 +259,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3E16B53FAB717B0E0C99EE0 /* ContentView.swift in Sources */,
+				A056B5CFE7FD070D67A41C14 /* GoalType.swift in Sources */,
 				E01EB93515BC732201678B26 /* GoalsView.swift in Sources */,
 				86DFF99EC3386ECE483DAD6B /* HomeView.swift in Sources */,
+				E5F7195D34A29FFC2E893841 /* LongTermGoalModel.swift in Sources */,
 				E9F02FA4336A69B219B9BE5E /* MarathonTrainingApp.swift in Sources */,
+				9596D36AC457ECD9BE4FD2F5 /* RaceModel.swift in Sources */,
 				48E5757A14DA59F1CC8E4E95 /* RecordsView.swift in Sources */,
 				3DB311A0352E874807F280CA /* SettingsView.swift in Sources */,
+				B133C2D3F032C11AB1069442 /* TrainingMenuModel.swift in Sources */,
+				C4329A4FCC9FE558B8C7466A /* TrainingType.swift in Sources */,
+				8FD4220BB7B9437E7E6475B2 /* WeeklyGoalModel.swift in Sources */,
 				5DE1FB967AB7507E5415A297 /* WeeklyMenuView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

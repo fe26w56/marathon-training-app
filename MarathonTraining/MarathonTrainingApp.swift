@@ -5,7 +5,10 @@ import SwiftData
 struct MarathonTrainingApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            // Models will be added here
+            RaceModel.self,
+            TrainingMenuModel.self,
+            WeeklyGoalModel.self,
+            LongTermGoalModel.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
