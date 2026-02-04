@@ -204,7 +204,7 @@
 			path = App;
 			sourceTree = "<group>";
 		};
-		"TEMP_7A68A76A-A1CA-4546-924B-16F7FD565DCF" /* Shared */ = {
+		"TEMP_596C89F8-1EBF-4A12-A467-FAEC6FE388DE" /* Shared */ = {
 			isa = PBXGroup;
 			children = (
 			);

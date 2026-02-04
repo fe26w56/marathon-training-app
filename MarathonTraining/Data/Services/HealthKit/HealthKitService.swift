@@ -230,13 +230,23 @@ final class HealthKitService {
                   let lastSample = session.last else { continue }
 
             // Determine the date for this sleep record
-            // Use the date when sleep started (before midnight = that day, after midnight = previous day)
+            // Only assign to previous day for overnight sleep (started between 6PM-midnight, ended after midnight)
+            // Naps and morning sleep stay on their actual date
             let sleepDate: Date
-            let hour = calendar.component(.hour, from: firstSample.startDate)
-            if hour < 12 {
-                // Sleep started after midnight, belongs to previous day
+            let startHour = calendar.component(.hour, from: firstSample.startDate)
+            let sleepDuration = lastSample.endDate.timeIntervalSince(firstSample.startDate)
+
+            // Consider it overnight sleep if:
+            // 1. Started between 6PM and midnight (18-23)
+            // 2. OR started after midnight but before 6AM AND duration > 3 hours (main sleep, not nap)
+            let isOvernightSleep = (startHour >= 18) ||
+                (startHour < 6 && sleepDuration > 3 * 3600)
+
+            if startHour < 6 && isOvernightSleep {
+                // Sleep started after midnight but is part of main overnight sleep
                 sleepDate = calendar.date(byAdding: .day, value: -1, to: firstSample.startDate) ?? firstSample.startDate
             } else {
+                // Naps, daytime sleep, or sleep that started before midnight
                 sleepDate = firstSample.startDate
             }
 
