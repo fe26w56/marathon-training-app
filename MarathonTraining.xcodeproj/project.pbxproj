@@ -8,7 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		02AB5B9810FDE57D9B91C83B /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68601CF3E6827AFAB9E783C /* Tab.swift */; };
+		1D7DD784DA0C60556D04B487 /* MenuTemplateSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB670E43771D3208B7FD2DF /* MenuTemplateSheet.swift */; };
 		1F329660C154E2196370D62F /* SleepRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171562AE2F6152870FD521A4 /* SleepRecord.swift */; };
+		21257451B0CBF18D80073ADA /* WeeklyMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCAA8182C3D3D66B7F10FA4 /* WeeklyMenuViewModel.swift */; };
+		30A010D6F1624F2A29D111D3 /* WeekCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BC5F341DEEAF38FD217CD3 /* WeekCalendarView.swift */; };
 		3DB311A0352E874807F280CA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6B615920679A5B6425AAFA /* SettingsView.swift */; };
 		48E5757A14DA59F1CC8E4E95 /* RecordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4935F7ED5DA0643B4ED755 /* RecordsView.swift */; };
 		5987DF2D06FC24CCA287A431 /* TodayMenuCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8018D3B1B2E6494189418307 /* TodayMenuCard.swift */; };
@@ -23,6 +26,7 @@
 		A7EE6972B24E14313836E96D /* RunningWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB96FA62E2AB87E4012C6E74 /* RunningWorkout.swift */; };
 		B133C2D3F032C11AB1069442 /* TrainingMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862EA7FAA86C60FDDA949048 /* TrainingMenuModel.swift */; };
 		BC3A8373A1CE6681F0FF20F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FBAFFDFA992C9C292C673C7 /* Assets.xcassets */; };
+		C4121A826AB3F1954AACC2B5 /* DayMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76891E8C7302E20BFD3F4E5 /* DayMenuCell.swift */; };
 		C4329A4FCC9FE558B8C7466A /* TrainingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C96D31363F79F305E2F5541 /* TrainingType.swift */; };
 		E01EB93515BC732201678B26 /* GoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56431ECF8DF3CECF3383E87 /* GoalsView.swift */; };
 		E5F7195D34A29FFC2E893841 /* LongTermGoalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC0CFB5CFE231C528687E2F /* LongTermGoalModel.swift */; };
@@ -36,8 +40,10 @@
 		171562AE2F6152870FD521A4 /* SleepRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepRecord.swift; sourceTree = "<group>"; };
 		1AD7264A823F71D85F424F2C /* MarathonTraining.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MarathonTraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C35D2135867741362E3AE23 /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
+		34BC5F341DEEAF38FD217CD3 /* WeekCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekCalendarView.swift; sourceTree = "<group>"; };
 		3DA138DAED0EEB89EF1ECC52 /* HealthKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitService.swift; sourceTree = "<group>"; };
 		3FBAFFDFA992C9C292C673C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FCAA8182C3D3D66B7F10FA4 /* WeeklyMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyMenuViewModel.swift; sourceTree = "<group>"; };
 		5A4935F7ED5DA0643B4ED755 /* RecordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsView.swift; sourceTree = "<group>"; };
 		60E1BFDF85EC77EAD3C6E91D /* MarathonTrainingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarathonTrainingApp.swift; sourceTree = "<group>"; };
 		63B550B305F6909BEBC11126 /* WeeklySummaryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklySummaryCard.swift; sourceTree = "<group>"; };
@@ -53,6 +59,8 @@
 		A68601CF3E6827AFAB9E783C /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		AA174E98F44AB02D9C7696E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B5018C41BB6D04354866DA7F /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		B76891E8C7302E20BFD3F4E5 /* DayMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayMenuCell.swift; sourceTree = "<group>"; };
+		BBB670E43771D3208B7FD2DF /* MenuTemplateSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTemplateSheet.swift; sourceTree = "<group>"; };
 		BE149F2CC235729C2894B6D9 /* WeeklyGoalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyGoalModel.swift; sourceTree = "<group>"; };
 		D433E722CA64B2DF5ECD787E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		DAC0CFB5CFE231C528687E2F /* LongTermGoalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongTermGoalModel.swift; sourceTree = "<group>"; };
@@ -104,6 +112,16 @@
 			);
 			sourceTree = "<group>";
 		};
+		25F45AFF6B4ED77319EADB01 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B76891E8C7302E20BFD3F4E5 /* DayMenuCell.swift */,
+				BBB670E43771D3208B7FD2DF /* MenuTemplateSheet.swift */,
+				34BC5F341DEEAF38FD217CD3 /* WeekCalendarView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		2ED2127CD14BDECDA2BE61A0 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +162,8 @@
 			isa = PBXGroup;
 			children = (
 				953436DD6951BDD71CAC756E /* WeeklyMenuView.swift */,
+				4FCAA8182C3D3D66B7F10FA4 /* WeeklyMenuViewModel.swift */,
+				25F45AFF6B4ED77319EADB01 /* Components */,
 			);
 			path = WeeklyMenu;
 			sourceTree = "<group>";
@@ -322,6 +342,7 @@
 			files = (
 				F3E16B53FAB717B0E0C99EE0 /* ContentView.swift in Sources */,
 				FA52EBCFC777E1A7D89DE730 /* CountdownCard.swift in Sources */,
+				C4121A826AB3F1954AACC2B5 /* DayMenuCell.swift in Sources */,
 				8860297FB625FE4B96971FEE /* EmptyStateView.swift in Sources */,
 				A056B5CFE7FD070D67A41C14 /* GoalType.swift in Sources */,
 				E01EB93515BC732201678B26 /* GoalsView.swift in Sources */,
@@ -330,6 +351,7 @@
 				7E91C6BF27836DFCD2199B73 /* HomeViewModel.swift in Sources */,
 				E5F7195D34A29FFC2E893841 /* LongTermGoalModel.swift in Sources */,
 				E9F02FA4336A69B219B9BE5E /* MarathonTrainingApp.swift in Sources */,
+				1D7DD784DA0C60556D04B487 /* MenuTemplateSheet.swift in Sources */,
 				9596D36AC457ECD9BE4FD2F5 /* RaceModel.swift in Sources */,
 				48E5757A14DA59F1CC8E4E95 /* RecordsView.swift in Sources */,
 				A7EE6972B24E14313836E96D /* RunningWorkout.swift in Sources */,
@@ -339,8 +361,10 @@
 				5987DF2D06FC24CCA287A431 /* TodayMenuCard.swift in Sources */,
 				B133C2D3F032C11AB1069442 /* TrainingMenuModel.swift in Sources */,
 				C4329A4FCC9FE558B8C7466A /* TrainingType.swift in Sources */,
+				30A010D6F1624F2A29D111D3 /* WeekCalendarView.swift in Sources */,
 				8FD4220BB7B9437E7E6475B2 /* WeeklyGoalModel.swift in Sources */,
 				5DE1FB967AB7507E5415A297 /* WeeklyMenuView.swift in Sources */,
+				21257451B0CBF18D80073ADA /* WeeklyMenuViewModel.swift in Sources */,
 				5EAF9C915224A821BDD60E41 /* WeeklySummaryCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
