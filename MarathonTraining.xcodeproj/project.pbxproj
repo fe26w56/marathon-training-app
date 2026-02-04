@@ -22,9 +22,11 @@
 		5987DF2D06FC24CCA287A431 /* TodayMenuCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8018D3B1B2E6494189418307 /* TodayMenuCard.swift */; };
 		5DE1FB967AB7507E5415A297 /* WeeklyMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953436DD6951BDD71CAC756E /* WeeklyMenuView.swift */; };
 		5EAF9C915224A821BDD60E41 /* WeeklySummaryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B550B305F6909BEBC11126 /* WeeklySummaryCard.swift */; };
+		70E12C5336D34D441AC1BC9D /* NotificationSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B738A09A974662C0CC0B63 /* NotificationSettingsView.swift */; };
 		7E91C6BF27836DFCD2199B73 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5018C41BB6D04354866DA7F /* HomeViewModel.swift */; };
 		86DFF99EC3386ECE483DAD6B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7233A3B17BACE09E4F6B2D06 /* HomeView.swift */; };
 		8860297FB625FE4B96971FEE /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E68531B5DC6DEDA0584A1CC /* EmptyStateView.swift */; };
+		8C5EAF1909F5E5DA3C38B0F4 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015A3292269302F9050AF6DE /* SettingsViewModel.swift */; };
 		8FD4220BB7B9437E7E6475B2 /* WeeklyGoalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE149F2CC235729C2894B6D9 /* WeeklyGoalModel.swift */; };
 		9596D36AC457ECD9BE4FD2F5 /* RaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699AB2DA19ED9D53CA7DCF57 /* RaceModel.swift */; };
 		A056B5CFE7FD070D67A41C14 /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C35D2135867741362E3AE23 /* GoalType.swift */; };
@@ -35,6 +37,8 @@
 		C4121A826AB3F1954AACC2B5 /* DayMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76891E8C7302E20BFD3F4E5 /* DayMenuCell.swift */; };
 		C4329A4FCC9FE558B8C7466A /* TrainingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C96D31363F79F305E2F5541 /* TrainingType.swift */; };
 		CBAC9C5B88FC22649EDC0526 /* RaceEditSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AD6F54D6227224BF7A361B /* RaceEditSheet.swift */; };
+		CC16CD6CD4B8948F8837F49F /* HealthKitSettingsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9516DBF462B395C157E260 /* HealthKitSettingsRow.swift */; };
+		DC5F10E97832A230BFD8A617 /* ProfileSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6C1AACA2F59FE770484596 /* ProfileSettingsView.swift */; };
 		DF6EF5ED411152D4682B1E4C /* LongTermGoalCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0749A1CA2F2A7B86EEC15031 /* LongTermGoalCard.swift */; };
 		E01BF50174A62BA9D96DADDE /* GoalsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA86ADA1CFD260FB0362AB7B /* GoalsViewModel.swift */; };
 		E01EB93515BC732201678B26 /* GoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56431ECF8DF3CECF3383E87 /* GoalsView.swift */; };
@@ -46,6 +50,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		015A3292269302F9050AF6DE /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		0749A1CA2F2A7B86EEC15031 /* LongTermGoalCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongTermGoalCard.swift; sourceTree = "<group>"; };
 		0852DBB0718901A0C53B51CE /* WeeklyGoalCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyGoalCard.swift; sourceTree = "<group>"; };
 		171562AE2F6152870FD521A4 /* SleepRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepRecord.swift; sourceTree = "<group>"; };
@@ -72,9 +77,11 @@
 		953436DD6951BDD71CAC756E /* WeeklyMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyMenuView.swift; sourceTree = "<group>"; };
 		9E68531B5DC6DEDA0584A1CC /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
 		A68601CF3E6827AFAB9E783C /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		A9B738A09A974662C0CC0B63 /* NotificationSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettingsView.swift; sourceTree = "<group>"; };
 		AA174E98F44AB02D9C7696E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B5018C41BB6D04354866DA7F /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		B76891E8C7302E20BFD3F4E5 /* DayMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayMenuCell.swift; sourceTree = "<group>"; };
+		BA6C1AACA2F59FE770484596 /* ProfileSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSettingsView.swift; sourceTree = "<group>"; };
 		BBB670E43771D3208B7FD2DF /* MenuTemplateSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTemplateSheet.swift; sourceTree = "<group>"; };
 		BC10CA9FF0210B51D5F060F7 /* RecordsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsViewModel.swift; sourceTree = "<group>"; };
 		BE149F2CC235729C2894B6D9 /* WeeklyGoalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyGoalModel.swift; sourceTree = "<group>"; };
@@ -82,6 +89,7 @@
 		DAC0CFB5CFE231C528687E2F /* LongTermGoalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongTermGoalModel.swift; sourceTree = "<group>"; };
 		DC6B615920679A5B6425AAFA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		EA86ADA1CFD260FB0362AB7B /* GoalsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsViewModel.swift; sourceTree = "<group>"; };
+		EF9516DBF462B395C157E260 /* HealthKitSettingsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitSettingsRow.swift; sourceTree = "<group>"; };
 		F56431ECF8DF3CECF3383E87 /* GoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsView.swift; sourceTree = "<group>"; };
 		F60B63049CBEA921CE499CBD /* RaceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceListView.swift; sourceTree = "<group>"; };
 		FB96FA62E2AB87E4012C6E74 /* RunningWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningWorkout.swift; sourceTree = "<group>"; };
@@ -287,8 +295,20 @@
 			isa = PBXGroup;
 			children = (
 				DC6B615920679A5B6425AAFA /* SettingsView.swift */,
+				015A3292269302F9050AF6DE /* SettingsViewModel.swift */,
+				E62270A23B55175DFFFC09D3 /* Components */,
 			);
 			path = Settings;
+			sourceTree = "<group>";
+		};
+		E62270A23B55175DFFFC09D3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EF9516DBF462B395C157E260 /* HealthKitSettingsRow.swift */,
+				A9B738A09A974662C0CC0B63 /* NotificationSettingsView.swift */,
+				BA6C1AACA2F59FE770484596 /* ProfileSettingsView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		EA072B55E1B91217068D38E6 /* Resources */ = {
@@ -391,12 +411,15 @@
 				E01EB93515BC732201678B26 /* GoalsView.swift in Sources */,
 				E01BF50174A62BA9D96DADDE /* GoalsViewModel.swift in Sources */,
 				FCBF1DF16101468D84121079 /* HealthKitService.swift in Sources */,
+				CC16CD6CD4B8948F8837F49F /* HealthKitSettingsRow.swift in Sources */,
 				86DFF99EC3386ECE483DAD6B /* HomeView.swift in Sources */,
 				7E91C6BF27836DFCD2199B73 /* HomeViewModel.swift in Sources */,
 				DF6EF5ED411152D4682B1E4C /* LongTermGoalCard.swift in Sources */,
 				E5F7195D34A29FFC2E893841 /* LongTermGoalModel.swift in Sources */,
 				E9F02FA4336A69B219B9BE5E /* MarathonTrainingApp.swift in Sources */,
 				1D7DD784DA0C60556D04B487 /* MenuTemplateSheet.swift in Sources */,
+				70E12C5336D34D441AC1BC9D /* NotificationSettingsView.swift in Sources */,
+				DC5F10E97832A230BFD8A617 /* ProfileSettingsView.swift in Sources */,
 				CBAC9C5B88FC22649EDC0526 /* RaceEditSheet.swift in Sources */,
 				0098356F60B025BA7784ACF0 /* RaceListView.swift in Sources */,
 				9596D36AC457ECD9BE4FD2F5 /* RaceModel.swift in Sources */,
@@ -405,6 +428,7 @@
 				312AACF3E04A2D02F73720F2 /* RunningHistoryList.swift in Sources */,
 				A7EE6972B24E14313836E96D /* RunningWorkout.swift in Sources */,
 				3DB311A0352E874807F280CA /* SettingsView.swift in Sources */,
+				8C5EAF1909F5E5DA3C38B0F4 /* SettingsViewModel.swift in Sources */,
 				AA27724B88633D5CE1F260C3 /* SleepHistoryList.swift in Sources */,
 				1F329660C154E2196370D62F /* SleepRecord.swift in Sources */,
 				04448C92AC5CB2353544049B /* StatsChartView.swift in Sources */,
